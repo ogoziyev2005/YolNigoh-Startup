@@ -1,0 +1,6 @@
+ultralytics      # YOLOv8 kutubxonasi (object detection uchun)
+opencv-python             # Kamera oqimi va tasvir bilan ishlash
+streamlit                 # GUI (real-time kuzatuv interfeysi uchun)
+numpy                     # Hisoblashlar uchun
+torch                     # YOLOv8 model ishlashi uchun (PyTorch asosida)
+torchvision               # Modellar bilan ishlashga yordam beradi
