@@ -18,3 +18,7 @@ def get_vehicle_count(model, frame, classes):
                 count += 1
     return count
 
+
+
+
+

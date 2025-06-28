@@ -1,28 +1,49 @@
-# Transport oqimini GUI'da ko'rsatish (Streamlit versiyasi)
 # gui.py
-# Transport soni va svetafor vaqti vizual ko‘rinishda ko‘rsatiladi
-# GUI texnologiyasi: Streamlit (engil va tez)
-
+import cv2
 import streamlit as st
 import time
 
-st.set_page_config(page_title="YOLOv8 Transport Zichlik Monitor", layout="centered")
-st.title("🚦 Real-time Transport Zichlik Monitoring")
+import main
 
-placeholder = st.empty()
 
+
+# Kamera ochish
+cap = cv2.VideoCapture(0) 
 while True:
-    try:
-        with open("vehicle_count.txt", "r") as f:
-            vehicle_count = int(f.read())
-    except:
-        vehicle_count = 0  # Fayl yo'q yoki noto‘g‘ri bo‘lsa
+    ret, frame = cap.read()
+    if not ret:
+        print("Kamera topilmadi yoki ishlamayapti.")
+        break
+    cap.release()
+cv2.destroyAllWindows()
 
-    green_time = vehicle_count * 1.5  # yoki: green_time = process_density(vehicle_count)
+
+
+def gui_display(vehicle_count, green_signal_time):
+    # Streamlit yordamida interfeysni yaratish
+    st.set_page_config(page_title="YOLOv8 Transport Zichlik Monitor", layout="centered")
+    st.title("🚦 Real-time Transport Zichlik Monitoring")
+
+    placeholder = st.empty()
 
     with placeholder.container():
         st.write(f"### Aniqlangan transport vositalari soni: {vehicle_count}")
-        st.write(f"## 🟢 Yashil chiroq davomiyligi: `{int(green_time)}` soniya")
+        st.write(f"## 🟢 Yashil chiroq davomiyligi: `{int(green_signal_time)}` soniya")
+
+
+         # Video oqimini Streamlit interfeysiga chiqarish
+    with placeholder.container():
+        st.image(frame, channels="BGR", use_column_width=True)
+        st.write(f"### Aniqlangan transport vositalari soni: {vehicle_count}")
+        st.write(f"## 🟢 Yashil chiroq davomiyligi: `{green_signal_time}` soniya")
+
 
     time.sleep(1)
+
+
+
+
+
+
+
 
