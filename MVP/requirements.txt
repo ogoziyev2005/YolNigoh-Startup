@@ -1,6 +1,13 @@
-ultralytics      # YOLOv8 kutubxonasi (object detection uchun)
-opencv-python             # Kamera oqimi va tasvir bilan ishlash
-streamlit                 # GUI (real-time kuzatuv interfeysi uchun)
-numpy                     # Hisoblashlar uchun
-torch                     # YOLOv8 model ishlashi uchun (PyTorch asosida)
-torchvision               # Modellar bilan ishlashga yordam beradi
+streamlit==1.46.0
+ultralytics==8.3.159
+opencv-python-headless==4.11.0.86
+torch==2.7.1
+torchvision==0.22.1
+numpy==2.3.1
+pandas==2.3.0
+matplotlib==3.10.3
+scipy==1.16.0
+requests==2.32.4
+tqdm==4.67.1
+PyYAML==6.0.2
+watchdog==6.0.0
