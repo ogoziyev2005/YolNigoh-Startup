@@ -75,51 +75,8 @@ Real vaqt rejimida trafik tizimi haqida ma'lumot va sozlamalarni Streamlit inter
 arduino
 Копировать
 streamlit run gui.py
-3D Model va Vizualizatsiya
-3D model yoki vizualizatsiya qo'shish tavsiya etiladi. Bu loyiha tushunchasini yaxshiroq anglash uchun foydalidir. Bu:
 
-Yo'l harakati tizimining raqamli maketini yoki prototipini ko'rsatish.
-
-Kameralarning kesishmalar ustida qanday joylashishini yoki tizimning qanday ishlashini ko'rsatuvchi 3D diagrammalar.
-
-Trafik oqimi va svetofor o'zgarishlarini ko'rsatadigan 3D animatsiyalar.
-
-3D modelning qo'shilishi investorlarga tizimning ishlashini yaxshiroq tushunishga yordam beradi va loyiha haqida ishonch hosil qilishadi.
-
-3D Model Qo'shish
-3D model yaratish uchun quyidagi dasturlardan foydalanishingiz mumkin:
-
-Blender: Trafik tizimi dizaynini yaratish va animatsiya qilish uchun ideal.
-
-SketchUp: Yaxshi va tezkor 3D modellar yaratish uchun.
-
-Autodesk Fusion 360: Yuqori aniqlikdagi model yaratish.
-
-Modellarni eksport qilib, ular bilan bog'liq fayllarni repository-ga joylashtiring.
 
 Loyiha qanday ishlaydi
 Yo'lNigoh AI - bu shaharlar bo'ylab trafik oqimini optimallashtirishga qaratilgan innovatsion yechim. AI yordamida trafik svetoforlarini optimallashtirish, tormozlanishni kamaytirish va harakat xavfsizligini oshirishga imkon beradi. Bu tizimni ko'plab shaharlar bo'ylab joriy qilish mumkin, bu esa transport tarmoqlarini aqlliroq va samaraliroq qiladi.
 
-Yana Ko'rib Chiqiladigan Yechimlar
-Loyiha investorlarga:
-
-Bozor mosligi: Yo'lNigoh AI qanday muammoni hal qilishini va boshqalardan qanday farq qilishini ko'rsatadi.
-
-Monetizatsiya strategiyasi: Yo'lNigoh AI qanday qilib daromad keltirishi mumkin (masalan, shahar hokimiyatlariga yoki kompaniyalarga tizimni sotish).
-
-Prototip: Loyiha ishga tushirishga tayyor bo'lgan prototipni ko'rsatish.
-
-Rivojlanish strategiyasi: Loyiha qanday kengayishi va global miqyosda qanday ishlashini tushuntirish.
-
-Investorlar uchun:
-Investorlarga quyidagi materiallar kerak bo'ladi:
-
-Batafsil taqdimot (PDF yoki video shaklida).
-
-Loyiha yo'li: Kelajakda loyihani kengaytirish va rivojlantirish yo'li.
-
-Biznes modeli: Tizim qanday qilib daromad keltiradi.
-
-Ishonchli statistikalar: Tizimning samaradorligi, misol uchun, transport tizimini tezlashtirish yoki yo'l harakatini yaxshilash statistikasi.
-
-Yana yordam kerak bo'lsa, so'rashdan tortinmang!
